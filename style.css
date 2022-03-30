@@ -24,13 +24,11 @@ header, .intro, .quote, footer, .planos, #pricing {
 
 header, .intro{
     display: flex;
-    width:100%;
-    align-self: stretch;
+    align-self:stretch;
     align-items: center;
     justify-content:space-around;
-    flex-flow: row wrap;
-    gap:15%;
 }
+
 
 
 .main h1 {
@@ -206,10 +204,8 @@ header ul {
 #pricing {
     display: flex;
     flex-direction: row;
-    align-items:stretch;
     width: 100%;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-between;
   }
   
   .product {
@@ -285,19 +281,6 @@ header ul {
 
 
   
-  
-  @media (max-width: 800px) {
-    #pricing {
-      flex-direction: column;
-    }
-    .product {
-      max-width: 300px;
-      width: 100%;
-      margin: 0 auto;
-      margin-bottom: 10px;
-    }
-  }
-
 
 
 
@@ -338,7 +321,6 @@ header ul {
     margin:100px auto;
     color: #f9faf8;
     flex-flow: row wrap;
-    
 }
 
 .sign-up-section button {
@@ -366,7 +348,7 @@ footer {
     align-self: stretch;
 }
 
-
+/*
 
 @media only screen and (max-width: 783px){
     .intro-elem {
@@ -394,6 +376,238 @@ footer {
 @media only screen and (max-width: 346px){
 header ul {
     margin-right: 10%;
+}  
 }
-   
+
+
+  
+@media (max-width: 800px) {
+    #pricing {
+      flex-direction: column;
+    }
+    .product {
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+  }
+*/
+
+
+@media (max-width: 550px) {
+    header a {
+        font-size: 12px;
+    }
+
+    .main h1 {
+        font-size: 22px;
+    }
+
+    .main li {
+        font-size: 8px;
+    }
+
+    .intro-text {
+        font-size: 8px;
+    }
+
+    .content h2 {
+        font-size: 18px;
+    }
+
+    .card {
+        font-size: 8px;
+    }
+
+    .product .level {
+        font-size: 15px;
+        padding: 0px 0;
+    }
+
+    .product h2 {
+        font-size: 15px;
+      }
+
+    .info h2{
+        font-size: 15px;
+      }
+
+    .info {
+        font-size: 8px;
+    }
+
+    
+
+    .logo img {
+        width: 20%;
+        height: auto;
+    }
+    
+    
+    .logo img {
+        width: 20%;
+        height: auto;
+    }
+
+    .intro-elem img {
+        width: 60%;
+        height: auto;
+    }
+
+    .content-img {
+        width:100px;
+        height:100px;
+        border: 3px solid #8dbe25; 
+        background-image: linear-gradient(180deg, #8dbe25, rgba(0, 0, 0, 0));
+        border-radius: 20px;
+        transition: ease 0.1s;
+    }
+    
+    .content-img img {
+        width:100px;
+        height: auto;
+        display: block;
+        margin: auto;
+        border-radius: 20px;
+    }
+
+    .photo img {
+        width: 100px;
+        height: auto;
+        border:#8dbe25;
+        border-style: solid;
+    }
+
+
+    .intro{
+        height:auto;
+    }
+
+    
+
+    header, .intro{
+        display: flex;
+        align-items: center;
+        align-self: auto;
+        justify-content:left;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 10px 0px 10px;
+    }
+
+
+
+
+    header ul {
+        display:flex;
+        justify-content: space-around;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    header li {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    ul {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    li {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .cards {
+        gap: 20px;
+    }
+
+    #pricing {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .product {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .information-photo {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 0 0px 0 0px;
+      }
+
+      #consultoria-sobre {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 10px 30px 10px;
+        gap: 10px;
+      }
+
+      
+
+
+      button {
+        background-color: #8dbe25;
+        flex:0 1 auto;
+        width:50px;
+        height: 15px;
+        border-radius: 5px;
+        border: none;
+        color:#f9faf8;
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-size: 5px;
+    }
 }
+
+/*
+@media (max-width: 550px) {
+    h1 {
+        font-weight: bold;
+        color: #fff;
+        font-size: 10px;
+    }
+}
+
+*/
+    /* header a {
+        font-size: 18px;
+    } 
+    
+    .main h1 {
+        font-size: 24px;
+    }
+    
+    */
+    
+
+
+
+
+
+    
+
+/*
+  
+    #container {
+      font-size: 20px;
+    }
+  
+    #options {
+      gap: 10px;
+    }
+  
+    #rock,
+    #paper,
+    #scissors {
+      width: 100px;
+      height: 100px;
+      font-size: 70px;
+    }
+  }
+
+  */
+  
